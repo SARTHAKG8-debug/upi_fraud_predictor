@@ -61,7 +61,7 @@ for model_name, model in models.items():
     plt.title(f'Confusion Matrix for {model_name}')
     plt.ylabel('Actual')
     plt.xlabel('Predicted')
-    plt.show()
+    # plt.show()
     plt.close()  # Close the plot to avoid blocking the loop
 
 # Bar plot for accuracies
@@ -72,7 +72,7 @@ plt.ylabel('Accuracy')
 plt.xlabel('Models')
 plt.ylim(0, 1)
 plt.xticks(rotation=45)
-plt.show()
+# plt.show()
 
 # Save models
 for model_name, model in models.items():
