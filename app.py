@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load("rf_model.pkl")
+model = joblib.load("random_forest_model.pkl")
 
 @app.route('/')
 def home():
